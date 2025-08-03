@@ -5,7 +5,7 @@ from PIL import Image, ImageTk
 import io
 from datetime import datetime
 
-API_KEY = "10bfb1374d5340fab47165420252801"  # Your WeatherAPI key
+API_KEY = "Add your API Key here"  # Your WeatherAPI key
 BASE_URL = "https://api.weatherapi.com/v1/forecast.json"
 
 def get_weather_icon(icon_code):
@@ -159,3 +159,4 @@ result_label.pack(pady=10)
 
 # Start the GUI event loop
 root.mainloop()
+
